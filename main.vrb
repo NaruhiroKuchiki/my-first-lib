@@ -1,0 +1,18 @@
+\frametitle{Pythonコード③}
+
+\begin{lstlisting}
+for i in range(1000):
+
+returns=np.random.choice(
+[0,2,100],
+size=100,
+p=[0.90,0.09,0.01]
+)
+
+result.append(
+np.mean(returns)
+)
+\end{lstlisting}
+
+1000通りの未来を作る。
+
